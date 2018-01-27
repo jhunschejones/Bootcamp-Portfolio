@@ -1,0 +1,74 @@
+#home {
+	background: url(../images/path1.jpg) no-repeat 50% 50%;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	display: block;
+	height: auto;
+	padding-top: 275px;
+	padding-bottom: 300px;
+}
+
+.head-main {
+	text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+	/* font-variant: small-caps; */
+	color: #fff;
+	/* letter-spacing: 5pt; */
+	/* word-spacing: 21pt; */
+	font-size: 4.5em;
+	text-align: center;
+	/* line-height: 2; */
+    /* font-weight: 900; */
+    /* padding: 10px; */
+}
+
+.sub-head {
+	color: #fff;
+	text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+	text-align: center;
+	padding-top: 40px;
+}
+
+.h2 {
+	text-align: center;
+}
+
+#experience {
+	background-color: #ccebff;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.about_me {
+	padding-top: 10px;
+	padding-bottom; 10px;
+}
+.portfolio_section {
+	margin-top: 25px;
+	/* padding: 25px; */
+}
+
+.underline::after {  /* This is the underline */
+	display: block;
+	content: "";
+	height: 2px;
+	width: 150px;
+	background: #000066;
+	margin: 5px auto 20px;
+	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
+}
+
+#portfolio:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -30px; 
+  height: 30px; 
+  visibility: hidden; 
+}
+
+footer {
+	padding: 5px;
+}
