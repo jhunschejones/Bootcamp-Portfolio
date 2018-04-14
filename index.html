@@ -8,7 +8,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./style.css">
 
 	<title>Joshua Hunsche Jones</title>	
 </head>
@@ -28,14 +28,14 @@
 				<!-- <li class="nav-item active">
 					<a class="nav-link" href="#home">Home</a>
 				</li> -->
-				<li class="nav-item">
+				<!-- <li class="nav-item">
 					<a class="nav-link" href="#about">About</a>
-				</li>					
+				</li> -->
 				<li class="nav-item">
 					<a class="nav-link" href="#experience">Experience</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#portfolio">Portfolio</a>
+					<a class="nav-link" href="#portfolio">Portfolio Highlights</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -55,17 +55,24 @@
 	
 		<div class="container">
 			<div class="row top_rows">
-				<div class="col-lg">
+				<!-- <div class="col-lg">
 					<img class="my_face" src="./images/IMG_3457.jpg">
-				</div>
+				</div> -->
 				<div class="col-lg about_me">	
+					<h3 style="display:block;float:right;" id="nice_to_meet_you"></h3>
+					<br />
+					<br />
 					<div id="about" class="card">
-						<h4 class="card-header">About Me:</h4>
+						<!-- <h4 class="card-header">About Me:</h4> -->
 						<div class="card-body">
-
-							<p class="card-text">My name is Joshua Hunsche Jones and I am a software developer. I began my career studying cinema and media communications at George Fox University. Following my graduation, I worked in a project coordinator role at FedEx office then moved into the health care industry with several roles at Providence Health plan.</p>
-							<p class="card-text">In 2017, I stumbled onto the field of software development while working on a training project and I was hooked. The balance of the intense intellectual challenge, creative engagement, and detailed problem solving fit me perfectly. I immersed myself in coding books and enrolled at The Tech Academy, a software development boot camp in Portland, Oregon.</p>
-							<p class="card-text">With my experience building projects in HTML, CSS, C#, ASP.NET, Node.js and Express.js--as well as the team projects I have completed during my internship at Providence Health Plan, I have gained valuable skills that I am looking forward to using in a full time developer role in the Portland area.</p>
+							<img class="my_face" src="./images/IMG_3457.jpg">
+							
+							<p class="card-text">My name is <span class="text-primary">Joshua Hunsche Jones</span> and I am a software developer, music producer, and life-long learner. I started my software development career in the healthcare industry at Providence Health Plan where I worked as a trainer and interned on an Agile team in the IS department. I have also worked for several years as a freelance music producer and mix engineer in my beautiful hometown of Portland, Oregon.</p>
+							<h5 class="text-secondary">Education and Experience</h5>
+							<p class="card-text">In 2018 I attended The Tech Academy boot camp and built projects of various sizes using <span class="text-primary">HTML</span>, <span class="text-primary">CSS</span>, <span class="text-primary">Bootstrap 4</span>, <span class="text-primary">JavaScript</span>, <span class="text-primary">.NET</span> and <span class="text-primary">.NET MVC (C#)</span>. I then worked on several personal projects in <span class="text-primary">Node.js</span>, <span class="text-primary">Express</span>, <span class="text-primary">ejs</span>, <span class="text-primary">Pug/Jade</span>, <span class="text-primary">MongoDB</span>, and <span class="text-primary">Firebase</span>, expanding my knowledge of open source software stacks and <span class="text-primary">API-driven design</span>. With these new tools under my belt, I began a 12-month internship at Providence Health Plans. By observing an <span class="text-primary">agile</span> development team go through the project cycle sprint after sprint I was able to learn new, real-world software skills beyond my basic boot camp education. I have seen how to divide large, entity-scale projects into achievable tasks, how to work with a team whose members have a wide range of skill sets, and the impact robust testing frameworks have on the overall productivity of a software project.</p>
+							<h5 class="text-secondary">What I Bring to The Team</h5>
+							<p class="card-text">As you can tell from the aesthetics of this portfolio, I am not a graphic designer. My strengths as a developer lie in <span class="text-primary">problem-solving</span>, <span class="text-primary">team work</span>, and development of back end or front end application functionality using <span class="text-primary">SOLID design principles</span> and clear <span class="text-primary">communication</span>. Recognizing my areas of strength has helped me team up with others who have complimentary strengths so that we can produce applications that serve the needs of the end user. I am always open to meeting new people with a passion for learning, technology, software development, or music--so please do not hesitate to reach out using the contact links in the menu or the bottom of this page!</p>
+							
 						</div>
 					</div>
 				</div>
@@ -102,7 +109,7 @@
 		<a id="portfolio"></a>
 		<div class="portfolio_section">
 			<div class="h2">
-				<p class="underline">Portfolio:</p>
+				<p class="underline">Portfolio Highlights:</p>
 			</div>
 			<div class="container">
 				<div class="card">
@@ -110,29 +117,29 @@
 					<!-- Rangor -->
 					<!-- </div> -->
 					<div class="card-body">
-						<h5 class="card-title">Music This Week (Node.js and Express.js)</h5>
-						<p class="card-text">This is the second app I've built with the express-generator. Though it is currently serving mostly static content, I wanted the app to be ready for more dynamic content as I add more features.</p>
-						<p class="card-text">The greatest challenge of this app was the actual process of accessing the Apple Music API. I read the handbook on JWT's along with the full documentation on Apple's music api to figure out how to create the token I would need, and then how to include it in my api calls. The JSON that comes back from Apple takes a little bit of work to get into, so I used Postman to view the results of a call and figure out how to get to the properties of the object that I needed.</p>		
-						<p class="card-text">Finally, I worked to build my express router and global.js files up so they could return, store, and use the data from my api calls to populate the page.</p>
-						<a href="https://github.com/jhunschejones/Music-This-Week" class="btn btn-dark">Repository</a>
-						<a href="music-this-week.herokuapp.com" class="btn btn-dark">Live Site</a>
+						<h5 class="card-title">Album Tags </h5>
+						<p class="card-text">The Album Tags app is one of the largest projects I've worked on to date. I built it in <span class="text-primary">Node.js</span> using <span class="text-primary">Express</span> and <span class="text-primary">Bootstrap 4</span> with <span class="text-primary">ejs</span> for the view engine. The app makes calls to two Apple Music <span class="text-primary">API's</span> and displays details about different records. In addition, it queries a <span class="text-primary">MongoDB</span> database of custom user tags and displays the specific tags pertaining to an album.</p>
+						<p class="card-text">This functionality combines to allow users to find records they like, review the tags used to describe them, then use the tags to search for similar records. I used <span class="text-primary">Firebase authentication</span> to limit who has the ability to add tags to albums, but any user can access the site and use the tag functionality to find some cool music.</p>		
+						<p class="card-text">The repository linked below has detailed documentation about the process of creating the app, so if you are curious to learn more I suggest starting there, or taking a look through the live app which is currently hosted using <span class="text-primary">Heroku</span>.</p>
+
+						<a href="https://github.com/jhunschejones/Album-Tags" class="btn btn-dark">Repository</a>
+						<a href="https://www.albumtags.com/" class="btn btn-dark">Live Site</a>
 					</div>
 					<div class="card-body">
 						<h5 class="card-title">Customer Service Tools</h5>
-						<p class="card-text">This repositiory is for a collection of basic web apps I’ve built for the call center customer service team at my current workplace. I used Bootstrap 4 and JavaScript to spin these up and I am very proud of the results.</p>
-						<p class="card-text">The most exciting and challenging part of this project has been interacting directly with my users. Through this experience, I have been able to make several significant improvements to different elements of the application. It has been incredible to see how much even a fairly basic app can make someone’s job easier, and I am inspired to do more work like this in the future!</p>
+						<p class="card-text">This repositiory is for a collection of basic web apps I’ve built for the call center customer service team at my current workplace. I used <span class="text-primary">Bootstrap 4</span> and <span class="text-primary">JavaScript</span> to spin these up and I am very proud of the results.</p>
+						<p class="card-text">The most exciting and challenging part of this project has been interacting directly with my users. Through this experience, I have been able to make several significant improvements to different elements of the applications. It has been incredible to see how much even a fairly basic app can make someone’s job easier, and I am inspired to do more work like this in the future!</p>
 						<a href="https://github.com/jhunschejones/Customer-Service-Tools" class="btn btn-dark">Repository</a>
 						<a href="https://filedn.com/lWYjvlpRciYBP9xzzyqgShB/Customer-Service-Tools/call_flow/checks.html" class="btn btn-dark">Live Site 1</a>
 						<a href="https://filedn.com/lWYjvlpRciYBP9xzzyqgShB/Customer-Service-Tools/home_base/index_public.html" class="btn btn-dark">Live Site 2</a>
 					</div>
 					<div class="card-body">
-						<h5 class="card-title">Dani's Animals 3</h5>
-						<p class="card-text">In this project I was only working with a single page application, so I first updated the layout.jade file to include the jQuery and Bootstrap I wanted to use for the layout. Then I updated the index.jade file with the main sections of the application. To build out the RESTful architecture, I then had to update the users.js routes file for the GET, POST and DELETE functions. Finally I wrote a global.js file to load the table, take user input, and use AJAX to add and remove data from the table.</p>
-						<p class="card-text">Like any project, troubleshooting was the biggest challenge with this application. As I continue to work on separation of concerns, it is becoming more important than ever to form a clear schema of how the application is laid out. When a problem arises, this then enables me to trace it back through the application efficiently and find the source.</p>
-						<p class="card-text">After the first deploy of this app, I found some elements that needed to be addressed. In my first update, I re-worked the user interface to be a little cleaner and easier to use. I cleaned out duplicate CSS code and fixed my error handling for when a user tries to input a blank field.</p>
-						<p class="card-text">After the second deploy of this app, I decided it was time to address the lack of reactivity on mobile devices. I had previously attempted employing some CSS media breakpoints to help with reactivity, but this only helped on desktops not on mobile. I refactored my code and updated my meta tags so that the whole site can take advantage of bootstraps reactive elements. The site now looks much better on mobile without sacrificing any of its desktop functionality.</p>
-						<a href="https://github.com/jhunschejones/Dani-Animals-3" class="btn btn-dark">Repository</a>
-						<a href="https://dani-animals-3.herokuapp.com/" class="btn btn-dark">Live Site</a>
+						<h5 class="card-title">Dani's Animals</h5>
+						<!-- <span class="text-primary"></span> -->
+						<p class="card-text">I built this app as the final project of my <span class="text-primary">C#</span> basics and <span class="text-primary">MVC.NET</span> course. It implements full <span class="text-primary">CRUD</span> functionality and allows the user to access data stored in a <span class="text-primary">SQL Server</span> database and used to populate the user interface. Take a look at the repository linked below for some images of the site after it was completed, along with the final code base.</p>
+						<p class="card-text"></p>
+						<p class="card-text"></p>
+						<a href="https://github.com/jhunschejones/The-Tech-Academy-C--Part-2/tree/master/DaniAnimals" class="btn btn-dark">Repository</a>
 					</div>
 				</div>
 			</div>
@@ -162,19 +169,13 @@
 		<!-- END FOOTER -->
 	
 	
-	
-	
-	
-	
-	
-	
-	
 	<!-- END PAGE CONTENT -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="./script.js"></script>
+  	</body>
 </html>
